@@ -1,3 +1,9 @@
+    //I wanted to have this code run in a loop until the user got my correct password but i would constantly run into endless loop
+    //I am new to JS and the input confused me, I think that was the problem
+    //This program has 3 functioning outcomes
+    //1. you enter password less then 10 char
+    //2. you have password over 10 char but not 'alex1234567'
+    //3. you have password over 10 char and is 'alex1234567'
 console.log("Welcome to the password validator tool");
 console.log("Password must be 10 characters");
 console.log("Can you guess my exact Password?");

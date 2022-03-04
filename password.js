@@ -14,16 +14,12 @@ const readline = require("readline").createInterface({
 })
 const myPass = 'alex1234567';
 var usrPass;
-let goOn = false;
-
-    goOn = true;
     readline.question('Enter Password ' ,usrPass => {
         console.log(`You entered :  ${usrPass}`);
         readline.close();
 
         if(usrPass.length < 10){
             console.log(`Password must be at least 10 characters ${usrPass} is only ${usrPass.length} characters`);
-            goOn = false;
         }else{
             let comp = myPass.localeCompare(usrPass);
             switch (comp){
